@@ -26,7 +26,7 @@ git clone https://github.com/apostoloskyparissis01-oss/PlaceFinderApp.git
 pip install -r requirements.txt
 
 3. Δημιούργησε .env αρχείο στον φάκελο backend/
-GOOGLE_API_KEY=το_κλειδί_σου
+GOOGLE_API_KEY=το_κλειδί_σου (Places API)
 
 4. Τρέξε τον server
 cd backend
