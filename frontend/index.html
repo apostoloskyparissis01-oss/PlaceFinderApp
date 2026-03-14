@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Place Finder</h1>
+        <p>Find the perfect place for you</p> 
+
+        <form id="search-form">
+            <div class="form-group">
+                <label for="location">Location</label>
+                <input type="text" id="location" placeholder="e.g. Athens">
+            </div>
+
+            <div class="form-group">
+                <label for="radius">Radius (meters)</label>
+                <input type="number" id="radius" placeholder="e.g. 1500">
+            </div>
+
+            <div class="form-group">
+                <label for="cuisine">Tyoe of cuisine</label>
+                <select id="cuisine">
+                    <option value="">--Select--</option>
+                    <option value="Greek">Greek</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Japanese">Japanese</option>
+                    <opotion value="Mexican">Mexican</opotion>
+                    <option value="Indiam">Indiam</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="budget">Budget</label>
+                <select id="budget">
+                    <option value="">--Select--</option>
+                    <option value="1">$ Cheap</option>
+                    <option value="2">$$ Medium</option>
+                    <option value="3">$$$ Expensive</option>
+                    <option value="4">$$$$ Luxurius</option>
+                </select>
+            </div>
+            
+            <button type="submit">Search</button>    
+        </form>
+
+        <div id="results">
+
+        </div>
+
+    </div>
+
+<script src="app.js"></script>    
+</body>
+</html>
